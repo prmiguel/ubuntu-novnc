@@ -1,0 +1,6 @@
+services:
+  novnc:
+    image: novnc
+    build:
+      context: .
+      dockerfile: Dockerfile
